@@ -1,0 +1,16 @@
+package com.org.inheritance;
+
+abstract class TestClass {
+	
+	int test;
+	public abstract void testMethod();
+
+	
+//	public TestClass(int test) {
+//		// TODO Auto-generated constructor stub
+//		
+//		this.test = test;
+//		
+//		System.out.println(test);
+//	}
+}

@@ -1,0 +1,39 @@
+package com.org.inheritance;
+
+public class MainClass extends TestClass {
+
+	public void testMethod()
+	{
+		System.out.println("test1............");
+	}
+	public MainClass(int test) {
+		
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		
+		
+		User user = new Admin();
+		
+		user.userMethod();
+		
+		user = new Viewer();
+		user.userMethod();
+		
+		
+		user = new Editor();
+		user.userMethod();
+		
+		user.commonAttributeOne();
+		
+		try {
+			
+		}finally {
+			
+		}
+		
+		MainClass main = new MainClass(50);
+	}
+}

@@ -1,0 +1,17 @@
+package com.org.inheritance;
+
+public class MainClass {
+
+	
+	public static void main(String[] args) {
+		
+		
+		User user = new Admin();
+		
+		user.userMethod();
+		
+		user = new Viewer();
+		user.userMethod();
+		
+	}
+}

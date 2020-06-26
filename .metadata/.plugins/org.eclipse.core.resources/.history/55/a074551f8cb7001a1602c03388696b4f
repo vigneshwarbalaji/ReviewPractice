@@ -1,0 +1,8 @@
+package com.org.inheritance;
+
+public class Viewer extends Admin
+{
+	public void userMethod() {
+		System.out.println("Viewer method");
+	}
+}
